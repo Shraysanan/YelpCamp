@@ -1,0 +1,47 @@
+.img-thumbnail img{
+  width:100%;
+  margin-bottom: 10px;
+}
+body{
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Poppins', sans-serif;
+}
+.thumbnail .caption-full{
+  padding:9px;
+}
+.row{
+  display:flex; flex-wrap: wrap;
+}
+#commentbox{
+  margin-top: 30px;
+}
+.deletebutton{
+  display: inline;
+}
+#comment_content{
+  margin-bottom: 0;
+}
+#infobox{
+  float: none;
+  margin: 50px auto;
+  border:black 5px  solid;
+  border-radius: 10%;
+  box-shadow: 10px 10px 5px #1a0000;
+}
+.navbar{
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.jumbotron{
+  background-image: url(https://i.imgur.com/3Dz35Fz.jpg);
+  color: white;
+}
+.img-thumbnail{
+  background: #4B79A1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+}
