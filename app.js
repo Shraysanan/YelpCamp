@@ -10,22 +10,19 @@ var express=require("express"),
     LocalStratergy=require("passport-local"),
     methodOverride=require("method-override"),
     User=require("./models/user");
-
 var commentRoutes=require("./routes/comments"),
     campgroundRoutes=require("./routes/campgrounds"),
     authRoutes=require("./routes/index");
+var url=process.env.DATABASEURL||"mongodb://localhost:27017/yelp_camp";
+mongoose.connect(url,{useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify:false});
 
-// mongoose.connect("mongodb://localhost:27017/yelp_camp",{useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify:false
-// });
-mongoose.connect("mongodb+srv://shray:shray08062000@yelpcamp.uhq45.mongodb.net/yelpcamp?retryWrites=true&w=majority",{useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify:false})
 app.use(bodyParser.urlencoded({extended:true}));
-app.set("view engine","ejs")
-app.use(express.static(__dirname+"/public"))//css files are found inside public directory inside current directory
+app.set("view engine","ejs");
+app.use(express.static(__dirname+"/public"));
 app.use(methodOverride("_method"));
 // seedDB();  //seed the database
 
 app.use(flash());
-
 //PASSPORT CONFIGURATION
 app.use(require("express-session")({
   secret:"this is secret content",
