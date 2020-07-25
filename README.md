@@ -5,22 +5,22 @@ full stack website made with HTML,CSS,javascript,mongo db and various libraries 
 https://radiant-peak-86698.herokuapp.com/ - automatic!
 
 #DOWNLOAD AND RUN INSTRUCTIONS
-*donwloading project
+ - donwloading project
 `https://github.com/Shraysanan/YelpCamp.git`
-*moving current directory to project directory
+ - moving current directory to project directory
 `cd YelpCamp`
-*installing dependencies
+ - installing dependencies
 `npm install`
-*running the app
+ - running the app
 `node app.js`
 
 #Test the following:
-*The introduction screen has lovely transiting wallpapers.
-*sign up 
-*login
-*log out
-*create new campground
-*create new comment
-*update or delete existing campground or comment if you are the author.
+ - The introduction screen has lovely transiting wallpapers.
+ - sign up 
+ - login
+ - log out
+ - create new campground
+ - create new comment
+ - update or delete existing campground or comment if you are the author.
 
 #more updates are yet on the way
