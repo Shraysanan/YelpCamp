@@ -1,20 +1,20 @@
 # ABOUT PROJECT
 full stack website made with HTML,CSS,javascript,mongo db and various libraries and apis.It was lastly deployed on heroku  .This project was made from the web developer bootcamp by colt steele on udemy.
 
-#Check the website hosted on heroku
-https://radiant-peak-86698.herokuapp.com/ - automatic!
+# Check the website hosted on heroku
+https://radiant-peak-86698.herokuapp.com/
 
-#DOWNLOAD AND RUN INSTRUCTIONS
+# DOWNLOAD AND RUN INSTRUCTIONS
  - donwloading project
-`https://github.com/Shraysanan/YelpCamp.git`
+ - `https://github.com/Shraysanan/YelpCamp.git`
  - moving current directory to project directory
-`cd YelpCamp`
+ - `cd YelpCamp`
  - installing dependencies
-`npm install`
+ - `npm install`
  - running the app
-`node app.js`
+ - `node app.js`
 
-#Test the following:
+# Test the following:
  - The introduction screen has lovely transiting wallpapers.
  - sign up 
  - login
@@ -23,4 +23,4 @@ https://radiant-peak-86698.herokuapp.com/ - automatic!
  - create new comment
  - update or delete existing campground or comment if you are the author.
 
-#more updates are yet on the way
+# More updates are yet on the way
