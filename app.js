@@ -59,15 +59,3 @@ app.use("/campgrounds/:id/comments",commentRoutes);
 app.listen(process.env.PORT||3000,process.env.IP,function(){
  console.log('yelpcamp has started')
 });
-
-//RESTFUL ROUTES
-//there are total 7 kinds of restful routes
-// name       url         verb    desc
-//=============================================================
-//INDEX    /dogs          GET     DISPLAY LIST OF ALL dogs
-//NEW      /dogs/new      GET     DISPLAY FORM TO MAKE A NEW dog
-//CREATE   /dogs          POST    ADD A NEW DOG TO DB
-//SHOW     /dogs/:id      GET     SHOW INFO ABOUT ONE DOG
-//EDIT     /dogs/:id/edit GET     SHOW EDIT FORM FOR ONE DOG
-//UPDATE   /dogs/:id      PUT     UPDATE A PARTICULAR DOG,THEN REDIRECT SOMEWHERE
-//DESTROY  /dogs/:id      DELETE  DELETE A PARTICULAR DOG,THEN REDIRECT SOMEWHERE
